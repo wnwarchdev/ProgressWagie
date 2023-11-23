@@ -1,4 +1,16 @@
 {
+  "name": "Progress Wagie Game",
+  "version": "1.0.0",
+  "description": "Idle Clicker Game",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "npm-run-all test:*",
+    "test:js": "eslint src/js/",
+    "build": "parcel build index.html --dist-dir ./public"
+  },
+  "author": "Wojtek Nowak",
+  "license": "MIT",
   "devDependencies": {
     "parcel": "^2.10.2"
   }
